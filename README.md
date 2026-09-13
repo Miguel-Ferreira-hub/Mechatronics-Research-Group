@@ -1,8 +1,14 @@
 <h1 align="center">Project Purpose</h1>
-The purpose of this project is to explore and associate lithium-ion battery behaviour to state-of-charge (SoC) through electrochemical impedance spectroscopy (EIS), aiming to establish novel methods of determining SoC or boost current estimation performance. The project is split into two parts:
+The purpose of this project is to explore and associate lithium-ion battery behaviour to state-of-charge (SoC) through electrochemical impedance spectroscopy (EIS), aiming to establish novel methods of determining SoC or boost current estimation performance. The project is split into two parts and an overview of the files can be found at the bottom.
 
 1. Quantification of the diffusion process and its relation to SoC, this is performed via the distribution of relaxation times (DRT), a characteristic distribution of the battery system displaying a peak (response) at present time constants.
 2. Proposition of equivalent circuit model (ECM) to work back to SoC, this is informed by the results of the DRT, with a particular focus on the diffusion process
+
+A machine learning method involving a convolutional neural network (CNN) is also presented, however, this is not complete and should be further explored in the future, for example in the following ways:
+
+1. Improve performance through data augmentation; a current method is implemented involving creating a distribution of possible EIS and DRT plots for each SoC.
+2. Modification of the current architecture, such as using a CNN-LSTM model.
+3. Collection of further data for more cells to boost performance and generalisation across SoC and SoH.
 
 <h1 align="center">Inverse Problem</h1>
 To calculate the DRT, impedance data $$Z(\omega)$$, is collected from a battery via low amplitude (0.1C) AC signal through EIS (0.01-10,000Hz). The DRT is found by solving the following inverse problem with the aim of establishing the distribution function $$\gamma(\tau)$$:
@@ -99,7 +105,7 @@ $$
 </p>
 
 <h1 align="center">Machine Learning Concept</h1>
-The machine learning concept involves feeding EIS and DRT data as an image representation into a convolutional neural network (cnn), the following example demonstrates a typical image that can be constructed:
+The machine learning concept involves feeding EIS and DRT data as an image representation into a CNN, the following example demonstrates a typical image that can be constructed:
 
 <p align="center">
   <img src="Images/cnn_image_data.png" alt="Logo" width="500">
@@ -113,3 +119,5 @@ The machine learning concept involves feeding EIS and DRT data as an image repre
 4. cnn_model.py - This script contains the CNN model concept, including data processing, augmentation, scaling and the model itself.
 5. drt_calculation.m - This MATLAB script contains the code to compute the distribution of relaxation times.
 6. ecm_optimisation.m - This MATLAB script contains code to solve the ECM fit optimisation problem.
+
+Data for various cells is contained within the Data folder.
