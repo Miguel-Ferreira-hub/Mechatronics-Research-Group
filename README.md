@@ -37,6 +37,8 @@ $$
 
 <p align="center">
   <img src="Images/drt.png" alt="Logo" width="500">
+  <br>
+  </b> DRT for various SoHs.
 </p>
 
 <h1 align="center">Diffusion Process</h1>
@@ -47,6 +49,8 @@ The diffusion process against SoC is quantified by two metrics:
 
 <p align="center">
   <img src="Images/relations.png" alt="Logo" width="500">
+  <br>
+  </b> Diffusion peak against SoC for various SoH (left), diffusion time constant (right).
 </p>
 
 <h1 align="center">ECM Fit</h1>
@@ -104,6 +108,8 @@ $$
 
 <p align="center">
   <img src="Images/ecm_fit_results.png" alt="Logo" width="500">
+  <br>
+  </b> ECM fit demonstrated via the Bode and Nyquist plot for the proposed ECM model and benchmark typical 2RC model, resulting SoC-OCV curve (bottom right).
 </p>
 
 <h1 align="center">Machine Learning Concept</h1>
@@ -111,6 +117,8 @@ The machine learning concept involves feeding EIS and DRT data as an image repre
 
 <p align="center">
   <img src="Images/cnn_image_data.png" alt="Logo" width="500">
+  <br>
+  </b> Possible image data for CNN containing EIS and DRT data.
 </p>
 
 <h1 align="center">Overview of Files</h1>
