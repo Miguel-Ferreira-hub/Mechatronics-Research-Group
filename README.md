@@ -50,7 +50,7 @@ $$
 Z_i = \frac{R_i}{1+j\omega R_i C_i}
 $$
 
-%%
+$$
 Z_{W} = 
 Z_{\mathrm{FLW}} =
 R_D\frac{\tanh\left(\sqrt{j\omega\tau_D}\right)}
