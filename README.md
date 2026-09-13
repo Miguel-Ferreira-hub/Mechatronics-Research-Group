@@ -24,11 +24,11 @@ $$
 <h1 align="center">DRT and Proposed ECM</h1>
 
 <p align="center">
-  <img src="Images/ECM.png" alt="Logo" width="500">
+  <img src="Images/proposed_ecm.png" alt="Logo" width="500">
 </p>
 
 <p align="center">
-  <img src="Images/DRT.png" alt="Logo" width="500">
+  <img src="Images/drt.png" alt="Logo" width="500">
 </p>
 
 <h1 align="center">Diffusion Process</h1>
@@ -38,7 +38,7 @@ The diffusion process against SoC is quantified by two metrics:
 2. Diffusion time constant $$\tau$$
 
 <p align="center">
-  <img src="Images/Relations.png" alt="Logo" width="500">
+  <img src="Images/relations.png" alt="Logo" width="500">
 </p>
 
 <h1 align="center">ECM Fit</h1>
@@ -95,11 +95,9 @@ Z_{\mathrm{ecm}} = R_{\infty} + \sum_{i=1}^{4} \frac{R_i}{1-j\omega R_i C_i}
 $$
 
 <p align="center">
-  <img src="Images/ECM_Fit.png" alt="Logo" width="500">
-</p>
-
-<p align="center">
-  <img src="Images/Nyquist.png" alt="Logo" width="500">
+  <img src="Images/ecm_fit.png" alt="Logo" width="500">
 </p>
 
 <h1 align="center">Machine Learning Concept</h1>
+
+<h1 align="center">Overview of Files</h1>
