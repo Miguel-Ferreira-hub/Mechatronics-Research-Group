@@ -31,6 +31,7 @@ $$
 
 <p align="center">
   <img src="Images/proposed_ecm.png" alt="Logo" width="500">
+  <br>
   </b> Proposed ECM model based on DRT.
 </p>
 
