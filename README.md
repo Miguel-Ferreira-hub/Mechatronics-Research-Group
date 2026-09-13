@@ -4,7 +4,7 @@ The purpose of this project is to explore and associate lithium-ion battery beha
 1. Quantification of the diffusion process and its relation to SoC, this is performed via the distribution of relaxation times (DRT) computed via the following inverse problem.
 2. Proposition of equivalent circuit model (ECM) to work back to SoC, this is informed by the results of the DRT, with a particular focus on the diffusion process.
 
-A machine learning method involving a convolutional neural network (CNN) is also presented, however, this is not complete and should be further explored in the future, for example in the following ways:
+A machine learning method involving a convolutional neural network (CNN) is also presented, however, this is not complete and should be further explored in the following ways:
 
 1. Improve performance through data augmentation; a current method is implemented involving creating a distribution of possible EIS and DRT plots for each SoC.
 2. Modification of the current architecture, such as using a CNN-LSTM model.
