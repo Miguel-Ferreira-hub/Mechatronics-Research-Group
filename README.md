@@ -99,5 +99,10 @@ $$
 </p>
 
 <h1 align="center">Machine Learning Concept</h1>
+The machine learning concept involves feeding EIS and DRT data as an image representation into a convolutional neural network (cnn), the following example demonstrates a typical image that can be constructed:
+
+<p align="center">
+  <img src="Images/cnn_image_data.png" alt="Logo" width="500">
+</p>
 
 <h1 align="center">Overview of Files</h1>
