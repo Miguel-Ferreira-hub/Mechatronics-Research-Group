@@ -21,7 +21,7 @@ if gpus:
 # ---------------------------------------------------------------------------
 
 # Cell 12 - 88.55% SoH (test data is witheld from dataset to stop data leakage)
-directory_cell12 = r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 12'
+directory_cell12 = r'CELL 12 DIRECTORY' # Change directory !!
 
 data_train_list_cell12 = ['00.txt','05.txt','10.txt','15.txt',
     '20.txt','50.txt','60.txt','65.txt',
@@ -47,7 +47,7 @@ soh_train_cell12 = 88.55
 soh_test_cell12 = 88.55
 
 # Cell 1 - 85.94% SoH
-directory_cell1 = r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 1'
+directory_cell1 = r'CELL 1 DIRECTORY' # Change directory !!
 
 data_train_list_cell1 = ['00.txt','05.txt','15.txt',
     '20.txt','25.txt','40.txt',
@@ -75,7 +75,7 @@ soh_train_cell1 = 85.94
 soh_test_cell1 = 85.94
 
 # Old cell 1 - 100% SoH
-directory_cell01 = r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Old Data'
+directory_cell01 = r'HEALTHY CELL DIRECTORY' # Change directory !!
 
 data_train_list_cell01 = ['00.txt','20.txt','30.txt','40.txt','50.txt',
     '60.txt','80.txt','90.txt','100.txt']
@@ -100,7 +100,7 @@ soh_train_cell01 = 100
 soh_test_cell01 = 100
 
 # Final Test Dataset - Cell 10 83.30% SoH
-directory_cell10 = r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 10'
+directory_cell10 = r'CELL 10 DIRECTORY' # Change directory !!
 
 data_cell10 = ['00.txt','10.txt',
     '20.txt','30.txt','35.txt','40.txt',
