@@ -46,6 +46,10 @@ The diffusion process against SoC is quantified by two metrics:
 <h1 align="center">ECM Fit</h1>
 The ECM consists of an internal resistance, RC branches to model identified electrochemical processes, and a diffusion RC branch using a finite-length Warburg term:
 
+$$
+Z_i = \frac{R_i}{1+j\omega R_i C_i}
+$$
+
 %%
 \Z_{W} = 
 Z_{\mathrm{FLW}} =
