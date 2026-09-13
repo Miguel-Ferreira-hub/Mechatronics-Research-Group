@@ -44,6 +44,15 @@ The diffusion process against SoC is quantified by two metrics:
 </p>
 
 <h1 align="center">ECM Fit</h1>
+The ECM consists of an internal resistance, RC branches to model identified electrochemical processes, and a diffusion RC branch using a finite-length Warburg term:
+
+%%
+\Z_{W} = 
+Z_{\mathrm{FLW}} =
+R_D\frac{\tanh\left(\sqrt{j\omega\tau_D}\right)}
+{\sqrt{j\omega\tau_D}}
+$$
+
 The ECM fit is performed by minimising the least squares error between the model impedance $$Z_{\mathrm{ECM}}$$ and collected impedance data $$Z_{\mathrm{EIS}}$$. This done through MATLAB's non-linear solver "lsqnonlin".
 
 $$
