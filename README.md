@@ -11,7 +11,7 @@ A machine learning method involving a convolutional neural network (CNN) is also
 3. Collection of further data for more cells to boost performance and generalisation across SoC and SoH.
 
 <h1 align="center">Inverse Problem</h1>
-To calculate the DRT, impedance data $$Z(\omega)$$, is collected from a battery via low amplitude (0.1C) AC signal through EIS (0.01-10,000Hz). The DRT is found by solving the following inverse problem with the aim of establishing the distribution function $$\gamma(\tau)$$:
+To calculate the DRT, impedance data \(Z(\omega)\) is collected from a battery via a low-amplitude (0.1C) AC signal through EIS (0.01–10,000 Hz). The DRT is found by solving the following inverse problem with the aim of establishing the distribution function \(\gamma(\tau)\):
 
 $$
 Z(\omega)=R_{\mathrm{ohmic}}+R_{\mathrm{pol}}
@@ -31,6 +31,7 @@ $$
 
 <p align="center">
   <img src="Images/proposed_ecm.png" alt="Logo" width="500">
+  </b> Proposed ECM model based on DRT.
 </p>
 
 <p align="center">
