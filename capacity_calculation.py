@@ -6,11 +6,11 @@ import pandas as pd
 # Data Paths
 # ---------------------------------------------------------------------------
 
-# Cell 12 - Cell 10 - Cell 1 - Old Cell (1)
-directory = [r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 12',
-    r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 10',
-    r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Cell 1',
-    r'C:\Users\migue\Desktop\Part IV\Quant\Up to Date ML for EIS\Old Data'] 
+# Cell 12 - Cell 10 - Cell 1 - Old Cell (1) 
+directory = [r'CELL 12 DIRECTORY', # Change directory !!
+    r'CELL 10 DIRECTORY', # Change directory !!
+    r'CELL 1 DIRECTORY', # Change directory !!
+    r'HEALTHY CELL DIRECTORY'] # Change directory !!
 
 file_name = ['New Cell 12 Full Discharge.txt',
     'Full Discharge.txt',
