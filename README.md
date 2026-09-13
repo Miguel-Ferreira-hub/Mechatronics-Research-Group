@@ -1,8 +1,8 @@
 <h1 align="center">Project Purpose</h1>
 The purpose of this project is to explore and associate lithium-ion battery behaviour to state-of-charge (SoC) through electrochemical impedance spectroscopy (EIS), aiming to establish novel methods of determining SoC or boost current estimation performance. The project is split into two parts and an overview of the files can be found at the bottom.
 
-1. Quantification of the diffusion process and its relation to SoC, this is performed via the distribution of relaxation times (DRT), a characteristic distribution of the battery system displaying a peak (response) at present time constants.
-2. Proposition of equivalent circuit model (ECM) to work back to SoC, this is informed by the results of the DRT, with a particular focus on the diffusion process
+1. Quantification of the diffusion process and its relation to SoC, this is performed via the distribution of relaxation times (DRT) computed via the following inverse problem.
+2. Proposition of equivalent circuit model (ECM) to work back to SoC, this is informed by the results of the DRT, with a particular focus on the diffusion process.
 
 A machine learning method involving a convolutional neural network (CNN) is also presented, however, this is not complete and should be further explored in the future, for example in the following ways:
 
