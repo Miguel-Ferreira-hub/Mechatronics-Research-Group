@@ -70,24 +70,18 @@ C_{2},
 C_{3},
 C_{4},
 C_{5},
-\R_{D},
-\C_{D},
+R_{D},
+C_{D},
 \right]
 $$
 
 And $$Z_{\mathrm{ECM}}$$:
 
 $$
-Z_{\mathrm{ECM}} =
-R_{\infty}
+Z_{\mathrm{ecm}} = R_{\infty} + \sum_{i=1}^{4} \frac{R_i}{1-j\omega R_i C_i}
 +
-\sum_{i=1}^{4}
-\frac{R_i}{1-j\omega R_i C_i} - 
-\frac{
-\displaystyle \frac{j}{\omega C_5}\left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)
-}{
-\displaystyle \left(R_5+\frac{\sigma(1-j)}{\sqrt{\omega}}\right)-\frac{j}{\omega C_5}
-}
+\frac{j\omega C_5\left(R_5\sqrt{j\omega R_5 C_5}+R_D\tanh\left(\sqrt{j\omega R_5 C_5}\right)\right)}
+{\sqrt{j\omega R_5 C_5}\left(R_5+j\omega C_5\right)+R_D\tanh\left(\sqrt{j\omega R_5 C_5}\right)}
 $$
 
 <p align="center">
