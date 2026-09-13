@@ -106,3 +106,10 @@ The machine learning concept involves feeding EIS and DRT data as an image repre
 </p>
 
 <h1 align="center">Overview of Files</h1>
+
+1. Corresponding_SoCs.xlsx - This file contains the data files and what the corresponding SoCs are, each battery is discharged/charged a preset number of times based on the healthy capacity, this results in an offset between the theoretical SoC and actual SoC.
+2. Manuscript Draft.docx - This contains the current manuscript for the work.
+3. capacity_calculation.py - This script computes the SoH, SoC and total capacity of each cell, the outcome is presented in Corresponding_SoCs.xlsx
+4. cnn_model.py - This script contains the CNN model concept, including data processing, augmentation, scaling and the model itself.
+5. drt_calculation.m - This MATLAB script contains the code to compute the distribution of relaxation times.
+6. ecm_optimisation.m - This MATLAB script contains code to solve the ECM fit optimisation problem.
