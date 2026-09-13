@@ -95,7 +95,7 @@ Z_{\mathrm{ecm}} = R_{\infty} + \sum_{i=1}^{4} \frac{R_i}{1-j\omega R_i C_i}
 $$
 
 <p align="center">
-  <img src="Images/ecm_fit.png" alt="Logo" width="500">
+  <img src="Images/ecm_fit_results.png" alt="Logo" width="500">
 </p>
 
 <h1 align="center">Machine Learning Concept</h1>
