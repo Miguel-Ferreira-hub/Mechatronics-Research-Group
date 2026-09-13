@@ -52,7 +52,6 @@ $$
 
 $$
 Z_{W} = 
-Z_{\mathrm{FLW}} =
 R_D\frac{\tanh\left(\sqrt{j\omega\tau_D}\right)}
 {\sqrt{j\omega\tau_D}}
 $$
