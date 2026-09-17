@@ -10,7 +10,7 @@ from scipy.interpolate import PchipInterpolator
 # Matplotlib style
 plt.style.use('dark_background')
 
-# GPU parallelisation (requires python 3.10 and CUDA 8.0 as of right now, will run as normal on CPU if not possible)
+# GPU parallelisation (requires python 3.10, tensorflow 2.10 and CUDA 8.0 as of right now, will run as normal on CPU if not possible)
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
     for gpu in gpus:
