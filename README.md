@@ -121,6 +121,8 @@ The machine learning concept involves feeding EIS and DRT data as an image repre
   </b> Possible image data for CNN containing EIS and DRT data.
 </p>
 
+This way the CNN can learn meaningful features between related aspects of the EIS spectrum and DRT. 
+
 <h1 align="center">Overview of Files</h1>
 
 1. Corresponding_SoCs.xlsx - This file contains the data files and what the corresponding SoCs are, each battery is discharged/charged a preset number of times based on the healthy capacity, this results in an offset between the theoretical SoC and actual SoC.
